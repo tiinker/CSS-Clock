@@ -19,16 +19,20 @@ circle {
 #hour {
     stroke: black;
     stroke-width: 4px;
+    transform-origin: 100% 100%;
+    
 }
 
 #minute {
     stroke: black;
     stroke-width: 2px;
+    transform-origin: 100% 100%;
     
 }
 
 #second {
-    stroke: black;
-    stroke-width: .5px;
-    
+    stroke:red;
+    stroke-width: 1px;
+    transform: rotate(180deg);
+    transform-origin: 100% 100%;
 }

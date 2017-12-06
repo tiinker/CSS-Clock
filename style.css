@@ -36,3 +36,7 @@ circle {
     transform: rotate(180deg);
     transform-origin: 100% 100%;
 }
+
+.faceNum {
+    font-size: 26px;
+}

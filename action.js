@@ -10,14 +10,14 @@ var time = setInterval(function(){
     var sec = dt.getSeconds();
     
     var secDeg = 6 * sec;
-    var minDeg = (6 * min) + (sec/60);
+    var minDeg = (6 * min) + (sec/10);
     var hrDeg = (30 * hr) + (min/2);
     second.style.webkitTransform = "rotate("+ secDeg + "deg)";
     minute.style.webkitTransform = "rotate("+ minDeg + "deg)";
     hour.style.webkitTransform = "rotate("+ hrDeg + "deg)";
     
     // console.log(hr, min, sec);
-    // console.log(minDeg);
+    console.log(minDeg);
 }, 1000);
 
 

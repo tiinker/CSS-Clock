@@ -13,7 +13,11 @@ svg {
 circle {
     fill: none;
     stroke: black;
-    stroke-width: 2px;
+    stroke-width: 10px;
+}
+
+#pin {
+    stroke-width: 10px;
 }
 
 #hour {

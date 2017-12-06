@@ -17,7 +17,7 @@ var time = setInterval(function(){
     hour.style.webkitTransform = "rotate("+ hrDeg + "deg)";
     
     // console.log(hr, min, sec);
-    console.log(minDeg);
+    // console.log(minDeg);
 }, 1000);
 
 

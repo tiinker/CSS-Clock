@@ -23,14 +23,14 @@ circle {
 #hour {
     stroke: black;
     stroke-width: 4px;
-    transform-origin: 100% 100%;
+    transform-origin: 50% 50%;
     
 }
 
 #minute {
     stroke: black;
     stroke-width: 2px;
-    transform-origin: 100% 100%;
+    transform-origin: 50% 50%;
     
 }
 
@@ -38,7 +38,7 @@ circle {
     stroke:red;
     stroke-width: 1px;
     transform: rotate(180deg);
-    transform-origin: 100% 100%;
+    transform-origin: 50% 50%;
 }
 
 .faceNum {

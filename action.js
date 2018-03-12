@@ -12,12 +12,14 @@ var time = setInterval(function(){
     var secDeg = 6 * sec;
     var minDeg = (6 * min) + (sec/10);
     var hrDeg = (30 * hr) + (min/2);
+    
     second.style.webkitTransform = "rotate("+ secDeg + "deg)";
     minute.style.webkitTransform = "rotate("+ minDeg + "deg)";
     hour.style.webkitTransform = "rotate("+ hrDeg + "deg)";
     
     // console.log(hr, min, sec);
-    console.log(minDeg);
+
+    console.log(secDeg);
 }, 1000);
 
 
